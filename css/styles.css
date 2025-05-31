@@ -25,25 +25,27 @@ body {
   /*Logo bitiş*/
 
   /* Menü başlangıç*/
-
   .menu .menu-ul .menu-item {
+    list-style-type: none;
+  }
+  .menu .menu-ul .menu-item a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    list-style-type: none;
   }
   /* Menü bitiş*/
   /* İletişim başlangıç*/
-
   .contacts-list {
+    list-style-type: none;
+  }
+  .contacts-list a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    list-style-type: none;
   }
   /* İletişim bitiş*/
 
@@ -60,8 +62,6 @@ body {
     text-align: center;
     color: #fff;
     background-color: #2e2f42;
-    top: 50%;
-    left: 50%;
   }
   .section-slider .slider-button {
     font-weight: 500;
