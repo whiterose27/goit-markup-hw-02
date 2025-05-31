@@ -2,83 +2,86 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #2e2f42;
   font-size: 16px;
-  /*Logo başlangıç*/
+}
 
-  .header-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
-  }
-  .header-logo span {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-  }
-  /*Logo bitiş*/
+/*Logo başlangıç*/
 
-  /* Menü başlangıç*/
-  .menu .menu-ul .menu-item {
-    list-style-type: none;
-  }
-  .menu .menu-ul .menu-item a {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  /* Menü bitiş*/
-  /* İletişim başlangıç*/
-  .contacts-list {
-    list-style-type: none;
-  }
-  .contacts-list a {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
-  /* İletişim bitiş*/
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.header-logo span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+/*Logo bitiş*/
 
-  /* Slider alanı*/
-  .section-slider {
-    text-align: center;
-  }
+/* Menü başlangıç*/
+.menu .menu-ul .menu-item {
+  list-style-type: none;
+}
 
-  .section-slider .slider-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    background-color: #2e2f42;
-  }
-  .section-slider .slider-button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    border-radius: 4px;
-    padding: 16px 32px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-    background-color: #4d5ae5;
-    text-align: center;
-  }
-  .section-slider .slider-button:hover {
-    background-color: #404bbf;
-  }
+.menu .menu-ul .menu-item a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* Menü bitiş*/
+/* İletişim başlangıç*/
+.contacts-list {
+  list-style-type: none;
+}
+.contacts-list a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* İletişim bitiş*/
+
+/* Slider alanı*/
+.section-slider {
+  text-align: center;
+}
+
+.section-slider .slider-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  background-color: #2e2f42;
+}
+.section-slider .slider-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  background-color: #4d5ae5;
+  text-align: center;
+}
+.section-slider .slider-button:hover {
+  background-color: #404bbf;
 }
 /* Slider alanı bitti*/
 /* Açıklamalar başlangıç*/
