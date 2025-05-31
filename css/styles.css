@@ -95,6 +95,7 @@ body {
   color: #2e2f42;
 }
 .section-first-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -128,6 +129,7 @@ body {
   color: #2e2f42;
 }
 .team-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -160,6 +162,7 @@ body {
   color: #2e2f42;
 }
 .portfolio-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -183,6 +186,7 @@ body {
   background-color: #2e2f42;
 }
 .footer-text {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
