@@ -31,10 +31,7 @@ body {
 .menu .menu-ul .menu-item {
   list-style-type: none;
 }
-.menu .menu-ul .menu-item:hover {
-  display: inline;
-  background-color: #404bbf;
-}
+
 .menu .menu-ul .menu-item a {
   font-weight: 500;
   font-size: 16px;
@@ -44,7 +41,10 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-
+.menu .menu-ul .menu-item a:hover {
+  display: inline;
+  color: #404bbf;
+}
 /* Menü bitiş*/
 /* İletişim başlangıç*/
 .contacts-list {
@@ -59,9 +59,9 @@ body {
   text-decoration: none;
 }
 
-.contacts-list:hover {
+.contacts-list a:hover {
   display: inline;
-  background-color: #404bbf;
+  color: #404bbf;
 }
 
 /* İletişim bitiş*/
@@ -91,6 +91,7 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   border: 1px solid transparent;
+  border-radius: 4px;
   padding: 16px 32px;
   cursor: pointer;
   background-color: #4d5ae5;
